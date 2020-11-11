@@ -21,6 +21,7 @@ public class Calculator<pblic> {
 
         size = size - 5;
         System.out.println(size);
+        System.out.println(" ");
 
     }
 }
