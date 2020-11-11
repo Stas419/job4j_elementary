@@ -14,5 +14,13 @@ public class Calculator<pblic> {
         int fiveMinusTwo = five - two;
         int fourTimeTwo = four * two;
         System.out.println("деление = "+sixDivTwo+";" + "вычитание  = "+fiveMinusTwo+";" + "умножение = "+fourTimeTwo+";" );
+
+        int size = 10;
+
+        size = 100;
+
+        size = size - 5;
+        System.out.println(size);
+
     }
 }
