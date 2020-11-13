@@ -11,6 +11,6 @@ public class Greeting {
         short s = 1500;
         char c = (char) s;
         double d = c;
-        System.out.println( d);gssa
+        System.out.println( d);
     }
 }
