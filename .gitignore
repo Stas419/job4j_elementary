@@ -18,3 +18,4 @@ target
 
 out
 *.log
+/src/ru/job4j/converter/
