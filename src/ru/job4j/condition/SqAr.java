@@ -2,6 +2,8 @@ package ru.job4j.condition;
 
 public class SqAr {
     public static double square(int p, int k) {
+        double h = p/(2*(k+1));
+        double L = h * k;
         double rsl = p * k;
         return rsl;
     }
