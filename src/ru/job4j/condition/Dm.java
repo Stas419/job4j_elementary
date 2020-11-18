@@ -2,7 +2,7 @@ package ru.job4j.condition;
 
 public class Dm {
     public static String answer(String question) {
-        String rsl = "Это став ит меня в тупик. Задайте  другой вопрос!";
+        String rsl = "Это ставит меня в тупик. Задайте  другой вопрос!";
         if ("Привет, Бот.".equals(question)) {
             rsl = "Привет, умник.";
             System.out.println(rsl);
