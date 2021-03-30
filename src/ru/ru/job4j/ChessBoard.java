@@ -1,10 +1,9 @@
-package ru.ru.job4j.condition;
+package ru.ru.job4j;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-public class ChessBoardTest {
-
+public class ChessBoard {
     public static  int way(int x1, int y1, int x2, int y2) {
         int rsl = 0;
         if (Math.abs(x2 - x1) == Math.abs(y2 - y1)) {
@@ -15,7 +14,7 @@ public class ChessBoardTest {
     }
 
     public static void main(String[] agrs) {
-        int abs = ChessBoardTest.way(0, 0, 5, 5);
+        int abs = ChessBoard.way(0, 0, 5, 5);
         System.out.print(abs);
     }
 
