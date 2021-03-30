@@ -14,8 +14,6 @@ public class ChessBoard {
     }
 
 
-
-
     public static void main(String[] args){
        int s =  ChessBoard.way(1,0,5,5);
        System.out.print(s);
