@@ -10,7 +10,7 @@ public class FactorialTest {
     @Test
     public void whenCalculateFactorialForFiveThenOneHundredTwenty() {
         int n = 5;
-        int expected = 120;
+        int expected  = 120;
         int s = Factorial.calc(n);
         assertThat(s, Matchers.is(expected));
     }
