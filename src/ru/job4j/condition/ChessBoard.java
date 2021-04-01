@@ -5,7 +5,7 @@ public class ChessBoard {
         int rsl = 1;
         if ( x2 == y2) {
             rsl = Math.abs(x2 - x1);
-            rsl = rsl == 0 ? Math.abs(y2  - y1) : rsl;
+            rsl = rsl == 0 ? Math.abs(y2 - y1) : rsl;
         }
         else{
             rsl = 0;
