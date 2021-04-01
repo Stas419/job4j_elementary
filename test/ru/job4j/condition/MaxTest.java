@@ -10,6 +10,6 @@ public class MaxTest {
         int right = 2;
         int result = Max.max(left, right);
         int expected = 2;
-        Assert.assertEquals(result, expected);
+        Assert.assertEquals(result , expected);
     }
 }
