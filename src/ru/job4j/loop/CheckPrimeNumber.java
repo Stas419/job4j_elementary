@@ -3,13 +3,14 @@ package ru.job4j.loop;
 public class CheckPrimeNumber {
 
     public static boolean check(int number) {
-        boolean canDivBy5 = number > 1;
+        boolean rsl = number > 1;
         for(int i = 2; i < number; i++){
             if(number % i == 0){
-                canDivBy5 = false;
+                rsl = false;
+                break;
             }
         }
-        return canDivBy5;
+        return rsl;
     }
 
     public static void main(String[] args){
