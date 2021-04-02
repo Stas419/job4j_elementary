@@ -3,12 +3,11 @@ package ru.job4j.loop;
 public class CheckPrimeNumber {
 
     public static boolean check(int number) {
-        boolean canDivBy5 = false;
-        if(number % 2 == 1){
-            canDivBy5 = true;
-        }
-        else if(number == 2){
-            canDivBy5 = true;
+        boolean canDivBy5 = number > 1;
+        for(int i = 2; i < number; i++){
+            if(number % i == 0){
+                canDivBy5 = false;
+            }
         }
         return canDivBy5;
     }

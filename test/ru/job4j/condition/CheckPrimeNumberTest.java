@@ -22,7 +22,7 @@ public class CheckPrimeNumberTest{
     @Test
     public void when1() {
         int number = 1;
-        boolean result = CheckPrimeNumber.check(number);
+        boolean  result = CheckPrimeNumber.check(number);
         Assert.assertFalse(result);
     }
 }
