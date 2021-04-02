@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import ru.job4j.loop.CheckPrimeNumber;
 
-public class CheckPrimeNumberTest {
+public class CheckPrimeNumberTest{
     @Test
     public void when5() {
         int number = 5;
