@@ -1,5 +1,7 @@
 package ru.job4j.array;
 
+import java.sql.SQLOutput;
+
 public class EqLast {
     public static boolean check(int[] left, int[] right) {
         boolean result = false;
