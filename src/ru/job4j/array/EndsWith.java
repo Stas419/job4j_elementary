@@ -13,6 +13,7 @@ public class EndsWith {
     public static void main(String[] args) {
         char[] word = {'H', 'e', 'l', 'l', 'o'};
         char[] post = {'l', 'o'};
+
         System.out.println(EndsWith.endsWith(word, post));
     }
 }
