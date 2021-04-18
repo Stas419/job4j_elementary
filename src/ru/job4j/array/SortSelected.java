@@ -9,7 +9,6 @@ public class SortSelected {
         }
         return data;
     }
-
     public static void main(String[] args) {
 
     }
