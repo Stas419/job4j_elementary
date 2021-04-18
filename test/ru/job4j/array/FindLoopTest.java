@@ -20,7 +20,7 @@ public class FindLoopTest {
         int start = 2;
         int finish = 4;
         int result = FindLoop.indexOf(data, el, start, finish);
-        int expected = 2;
+        int expected = 3;
         Assert.assertEquals(expected, result);
     }
 
