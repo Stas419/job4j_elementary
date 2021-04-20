@@ -7,6 +7,7 @@ public class MatrixSumTest {
     public void whenSingle() {
         int[][] array = {
                 {10}
+
         };
         int result = MatrixSum.sum(array);
         int expected = 10;
