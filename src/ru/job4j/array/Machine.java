@@ -8,15 +8,22 @@ public class Machine {
         int[] rsl = new int[100];
         int size = 0;
         int sum = money - price;
-            while(sum > 0) {
-                if (sum >= 10 || sum >= 5 || sum >= 2 || sum >= 1) {
-                    for (int i = 0; i < coins.length; i++) {
-
-                    }
-                }
-                size = rsl.length;
+        for (int i = 0; i < coins.length; i++) {
+            while (sum >= coins[i]) {
+                rsl[i] = coins[i];
+                sum = sum - rsl[i];
+                size ++;
             }
+        }
         return Arrays.copyOf(rsl, size);
+    }
+
+    public static void main(String[] args) {
+
+        int[] mass = Machine.change(100, 31);
+        for (int i = 0; i < mass.length; i++) {
+            System.out.println(mass[i]);
+        }
     }
 }
 
