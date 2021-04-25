@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class MachineTest {
     @Test
-    public void whenEquals() {
+    public void whenEquals(){
         int money = 100;
         int price = 100;
         int[] result = Machine.change(money, price);
