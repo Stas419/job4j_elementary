@@ -6,7 +6,7 @@ import org.junit.Assert;
 public class PintTest extends TestCase {
 
     public void testDistance() {
-        int expected = 2;
+        int expected = 3;
         int x1 = 0;
         int y1 = 0;
         int x2 = 3;

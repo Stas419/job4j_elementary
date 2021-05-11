@@ -21,11 +21,8 @@ public class SwitchArray {
         int[] rs = swapBorder(nums);
         SwitchArray.swap(rs, 0,3);
         for (int index = 0; index < rsl.length; index++) {
-//            System.out.println(rsl[index]);
+            System.out.println(rsl[index]);
             System.out.println(rs[index]);
-
-
-
         }
     }
 }

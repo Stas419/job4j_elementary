@@ -20,11 +20,14 @@ public class Machine {
 
     public static void main(String[] args) {
 
+        Machine.change(100, 21);
         int[] mass = Machine.change(100, 31);
         for (int i = 0; i < mass.length; i++) {
             System.out.println(mass[i]);
         }
     }
+
+    public static void mass(){}
 }
 
 

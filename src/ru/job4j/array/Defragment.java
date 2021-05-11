@@ -1,10 +1,12 @@
 package ru.job4j.array;
 
+import java.util.Scanner;
+
 public class Defragment {
     public static String[] compress(String[] array) {
         for (int i = 0; i < array.length; i++) {
             for (int j = i + 1; j < array.length; j++) {
-                if (array[j] != null) {
+                if (array[j] != null ) {
                     array[i] = array[j];
                     array[j] = null;
                     break;
@@ -14,6 +16,4 @@ public class Defragment {
         }
         return array;
     }
-
-
 }
